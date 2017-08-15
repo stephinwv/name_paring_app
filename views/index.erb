@@ -1,0 +1,27 @@
+<!DOCtype html>
+<link rel = "stylesheet" href = "css/style.css">
+
+<p>How many people are in class today?</p>
+
+<form method = "post" action = "names" id = "text_box">
+    <input type ="number" min = 2 autofocus = "autofocus" id ="myInput" oninput = "myFunction()" >
+    <p id = "demo"></p>
+    <br>
+    <br>
+    <input type = "submit">
+</form></center>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myInput").value;
+        var y = "";
+        for (i = 0; i < x; i++) 
+        document.getElementById("demo").innerHTML = "Enter their names in the boxes below:<br>";
+            for (var i = 1; i <= x; i++){
+            var input = document.createElement("input");
+            input.type = "text";
+            input.name = "text" + i;
+            document.getElementById("demo").appendChild(input).value;
+            }
+    }
+</script>
