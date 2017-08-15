@@ -1,3 +1,24 @@
+ header {
+   
+    background-color: white;
+   
+    position: absolute;
+    top: 5px;
+    left: 10%;
+    width: 80%;
+
+}
+ body {
+    background-color: aqua;    
+    background-size: 100% 100%;
+    padding-top: 50px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: georgia, Times, serif; 
+    color: black;
+    }
 #marv {
     display: block;
 }

@@ -21,7 +21,7 @@ def pair(names)
 
 	
 	end
-	array.map!{ |e,i,v| "#{e}, " "#{i}," "#{v}"}.join"<br>"
+	array.map!{ |name1,name2,name3| "#{name1} " "#{name2} " "#{name3}"}.join"<br>"
 	#map is kind of like each, runs through a block for each element. map! changes the original array.It "maps" a function to each item into an array.
 
 end
